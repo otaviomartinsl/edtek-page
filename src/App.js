@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <h1>Edtek - Página do Desenvolvedor</h1>
       </header>
+      <main>
+        <section>
+          <h2>Sobre</h2>
+          <p>Bem-vindo à página do desenvolvedor da Edtek.</p>
+        </section>
+      </main>
+      <footer>
+        <p>© 2024 Edtek. Todos os direitos reservados.</p>
+      </footer>
     </div>
   );
 }
