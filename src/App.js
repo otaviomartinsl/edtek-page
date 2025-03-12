@@ -1,20 +1,22 @@
 import React from 'react';
+import './App.css';
+import Navbar from './components/Navbar';
+import Presentation from './components/Presentation';
+import Curriculo from './components/Curriculo';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
-    <div>
-      <header>
-        <h1>Edtek - Página do Desenvolvedor</h1>
-      </header>
-      <main>
-        <section>
-          <h2>Sobre</h2>
-          <p>Bem-vindo à página do desenvolvedor da Edtek.</p>
-        </section>
-      </main>
-      <footer>
-        <p>© 2024 Edtek. Todos os direitos reservados.</p>
-      </footer>
+    <div className="curriculo-app">
+      <Navbar />
+      <Presentation />
+      
+      <div className="container">
+        <div className="content-row">
+
+          <Portfolio />
+        </div>
+      </div>
     </div>
   );
 }
