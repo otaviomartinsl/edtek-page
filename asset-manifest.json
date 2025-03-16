@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/edtek-page/static/css/main.70f668b5.css",
-    "main.js": "/edtek-page/static/js/main.f39cb452.js",
+    "main.css": "/edtek-page/static/css/main.ed624789.css",
+    "main.js": "/edtek-page/static/js/main.ecaf4988.js",
     "static/js/453.5fa7ca87.chunk.js": "/edtek-page/static/js/453.5fa7ca87.chunk.js",
     "index.html": "/edtek-page/index.html",
-    "main.70f668b5.css.map": "/edtek-page/static/css/main.70f668b5.css.map",
-    "main.f39cb452.js.map": "/edtek-page/static/js/main.f39cb452.js.map",
+    "main.ed624789.css.map": "/edtek-page/static/css/main.ed624789.css.map",
+    "main.ecaf4988.js.map": "/edtek-page/static/js/main.ecaf4988.js.map",
     "453.5fa7ca87.chunk.js.map": "/edtek-page/static/js/453.5fa7ca87.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70f668b5.css",
-    "static/js/main.f39cb452.js"
+    "static/css/main.ed624789.css",
+    "static/js/main.ecaf4988.js"
   ]
 }
